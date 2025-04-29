@@ -12,6 +12,7 @@
     },
     "scripts": {
         "lint:js": "eslint js",
+        "deploy": "main -d build",
         "lint:css": "stylelint css",
         "lint:html": "htmlhint **/*.html",
         "dev": "npx esbuild js/*.js --bundle --outdir=dist --servedir=.",
